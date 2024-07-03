@@ -2,7 +2,7 @@
 
 # Install a specific version of python3(3.8.10), flask(2.1.0) & Werkzeug(2.1.1)
 
-package { 'python3.8':
+package { 'python3.8.8.8.8.8.8.8.8':
   ensure   => '3.8.10',
   provider => 'pip3',
 }

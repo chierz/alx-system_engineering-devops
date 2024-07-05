@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#a Bash script that displays Best School 10 times, but for the 9th iteration, displays Be
+#st School and then Hi on a new lin
+
+var="Best School"
+var1="Hi"
+i=0
+while [ $i -lt 10 ]; do
+  if [ $i -eq 9 ]; then
+	  echo "$var1"
+  fi
+  echo "$var"
+  ((i++))
+done

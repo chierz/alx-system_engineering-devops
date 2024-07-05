@@ -8,12 +8,13 @@ var="Best School"
 var1="bad luck"
 var2="good luck"
 i=0
-while [ $i -lt 8 ]; do
+while [ $i -lt 10 ]; do
   if [ $i -eq 3 ]; then
 	  echo "$var1"
-  elif [ $i -eq 6 ]; then
+  elif [ $i -eq 7 ]; then
 	  echo "$var2"
+  else
+	  echo "$var"
   fi
-  echo "$var"
   ((i++))
 done

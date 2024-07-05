@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# a Bash script dat loops 10 times and 
+# displays bad luck for the 4th loop iteration
+# displays good luck for the 8th loop iteration
+# displays Best School for the other iterations
+
+var="Best School"
+var1="bad luck"
+var2="good luck"
+i=0
+while [ $i -lt 8 ]; do
+  if [ $i -eq 3 ]; then
+	  echo "$var1"
+  elif [ $i -eq 6 ]; then
+	  echo "$var2"
+  fi
+  echo "$var"
+  ((i++))
+done

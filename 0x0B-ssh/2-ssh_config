@@ -1,3 +1,4 @@
 # ssh config file
   Host *
-	
+      PassWordAuthentification no
+      IdentityFile ~/.ssh/school

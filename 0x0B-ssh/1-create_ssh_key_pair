@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#creates an ssh keygen of type rsa with 4096 bytes and passphrase betty
+
+ssh-keygen -t rsa -b 4096 -f school -N betty
